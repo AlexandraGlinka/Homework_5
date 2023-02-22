@@ -36,7 +36,7 @@ public class Main {
     }
     public static void task3() {
         System.out.println("Задача 3");
-        int year = 2500;
+        int year = 4000;
         if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
                 System.out.println("Год является високосным");
             } else {
@@ -45,6 +45,14 @@ public class Main {
     }
     public static void task4() {
         System.out.println("Задача 4");
+        //if (deliveryDistance > 20) {
+        //    deliveryDistance++
+        //}
+        //if (deliveryDistance > 60) {
+        //    deliveryDistance++
+        //}
+        //System.out.println("Потребуется дней: " + deliveryTime);
+
         int deliveryDistance = 59;
         int deliveryTime = 1;
         if (deliveryDistance < 20) {
